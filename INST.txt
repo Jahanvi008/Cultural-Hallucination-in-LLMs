@@ -1,0 +1,2 @@
+python eval.py --data_path outputs/precise/en/gpt-4o.jsonl --judge_model gpt-5.1-mini
+python eval.py --data_path outputs/longwiki/en/gpt-4o.jsonl --judge_model gpt-5.1-mini
