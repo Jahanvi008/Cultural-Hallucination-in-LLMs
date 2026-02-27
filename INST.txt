@@ -1,2 +1,10 @@
-python eval.py --data_path outputs/precise/en/gpt-4o.jsonl --judge_model gpt-5.1-mini
-python eval.py --data_path outputs/longwiki/en/gpt-4o.jsonl --judge_model gpt-5.1-mini
+Change the evaluation model in run_api_models.py to whatever model you want to collect responses from. Then,
+
+1. First run models to collect response (change model_tag):
+
+python run_api_models.py --model_tag gpt-5 --dataset_type precise --lang en
+python run_api_models.py --model_tag gpt-5 --dataset_type precise --lang gu
+
+2. Then run evaluation:
+python eval_precisewiki.py --data_path outputs/precise/en/gpt-5.jsonl --judge_model gpt-4.1
+python eval_precisewiki.py --data_path outputs/precise/gu/gpt-5.jsonl --judge_model gpt-4.1
