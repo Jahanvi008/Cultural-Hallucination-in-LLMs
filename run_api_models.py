@@ -30,7 +30,7 @@ PROMPT_TEMPLATES = {
         "Provide a short, precise answer (1–5 words). "
         "If the question is in Gujarati, answer in Gujarati. "
         "If the question is in English, answer in English. "
-        "If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
+        "If no factual answer exists, reply exactly: No Information Available\n\nQuestion: {question}\nAnswer:"
     ),
     ("precise", "gu"): (
         "You are a multilingual factual QA assistant. "
@@ -122,22 +122,22 @@ def load_dataset(ds_dir, dtype, lang):
     # Normalize column names
     df.columns = df.columns.str.lower().str.strip()
 
-    # English dataset
+    # ---------------- ENGLISH ----------------
     if lang == "en":
-        # allow common variants
-        q_candidates = ["question", "questions", "prompt"]
-        a_candidates = ["answer", "gold_answer", "gold", "label"]
+        q_candidates = ["question", "questions"]
+        a_candidates = ["answer", "gold_answer"]
+        d_candidates = ["domain", "category"]
 
         q_col = next((c for c in q_candidates if c in df.columns), None)
         a_col = next((c for c in a_candidates if c in df.columns), None)
+        d_col = next((c for c in d_candidates if c in df.columns), None)
 
         if q_col is None:
             raise ValueError(f"Missing question column. Found: {list(df.columns)}")
 
-        # If nonexistent dataset doesn't have gold answers, create a placeholder
         if a_col is None:
             if dtype == "nonexistent":
-                df["gold_answer"] = "No Information Available/ માહિતી ઉપલબ્ધ નથી"
+                df["gold_answer"] = "No Information Available"
             else:
                 raise ValueError(
                     f"Expected an answer column for dataset '{dtype}'. Found: {list(df.columns)}"
@@ -147,43 +147,55 @@ def load_dataset(ds_dir, dtype, lang):
 
         df = df.rename(columns={q_col: "question"})
 
-    # Gujarati dataset
+        # Handle domain
+        if d_col:
+            df = df.rename(columns={d_col: "domain"})
+        else:
+            df["domain"] = "unknown"
+
+    # ---------------- GUJARATI ----------------
     elif lang == "gu":
         q_col = "question_gujarati"
         a_col = "answer_gujarati"
+        d_col = "domain_gujarati"
 
         if q_col not in df.columns:
             raise ValueError(f"Expected '{q_col}' in Gujarati file. Found: {list(df.columns)}")
 
-        # If nonexistent Gujarati also lacks answers, create placeholder
+        # Rename question
+        df = df.rename(columns={q_col: "question"})
+
+        # Handle answer
         if a_col not in df.columns:
             if dtype == "nonexistent":
-                df["gold_answer"] = "No Information Available/ માહિતી ઉપલબ્ધ નથી"
+                df["gold_answer"] = "માહિતી ઉપલબ્ધ નથી"
             else:
                 raise ValueError(f"Expected '{a_col}' in Gujarati file. Found: {list(df.columns)}")
         else:
             df = df.rename(columns={a_col: "gold_answer"})
 
-        df = df.rename(columns={q_col: "question"})
+        # ✅ Proper domain rename
+        if d_col in df.columns:
+            df = df.rename(columns={d_col: "domain"})
+        else:
+            df["domain"] = "unknown"
 
     # Insert id column
     df.insert(0, "id", range(len(df)))
 
-    return df[["id", "question", "gold_answer"]]
-
+    return df[["id", "question", "gold_answer", "domain"]]
 
 def call_api(model_tag, prompt):
     """Unified API caller for GPT-4o, Claude, LLaMA 405B, LLaMA 3.3.
 
     `prompt` should be a fully prepared string (question inserted or template used).
     """
-
-    # --- GPT-4o ---
-    if model_tag == "gpt-4o":
+    # --- GPT-5 ---
+    if model_tag == "gpt-5":
         res = client_openai.chat.completions.create(
-            model="gpt-4o",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0
+            model="gpt-5", 
+            messages=[{"role":"user","content":prompt}],
+            temperature=1.0
         )
         return res.choices[0].message.content.strip()
 
@@ -246,12 +258,30 @@ def main():
     out_path = out_dir / f"{args.model_tag}.jsonl"
     fout = out_path.open("a", encoding="utf-8")
 
+    done_ids = set()
+
+    if out_path.exists():
+        with out_path.open("r", encoding="utf-8") as fin:
+            for line in fin:
+                try:
+                    obj = json.loads(line)
+                    done_ids.add(int(obj["id"]))
+                except Exception:
+                    continue
+
+        print(f"Resuming: {len(done_ids)} already completed.")
+        
     print("=== Beginning inference...")
 
     # Select a prompt template for this dataset/language
     template = PROMPT_TEMPLATES.get((args.dataset_type, args.lang)) or PROMPT_TEMPLATES.get((args.dataset_type, "en"))
 
     for _, row in tqdm(ds_df.iterrows(), total=len(ds_df)):
+        rid = int(row["id"])
+
+        if rid in done_ids:
+            continue
+
         # If the template expects a question placeholder, format it; otherwise use template as-is
         if template and "{question}" in template:
             prompt = template.format(question=row["question"])
@@ -265,6 +295,7 @@ def main():
             "question": row["question"],
             "gold_answer": row["gold_answer"],
             "model_answer": ans,
+            "domain": row["domain"],
             "model_tag": args.model_tag,
             "dataset_type": args.dataset_type,
             "lang": args.lang,
@@ -272,7 +303,7 @@ def main():
 
         fout.write(json.dumps(record, ensure_ascii=False) + "\n")
         fout.flush()
-        time.sleep(1)
+        time.sleep(0.5)
 
     print("=== Completed ===")
 
