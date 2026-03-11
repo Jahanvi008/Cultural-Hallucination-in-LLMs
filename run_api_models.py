@@ -226,9 +226,9 @@ def call_api(model_tag, prompt):
         return r["output"]["choices"][0]["text"].strip()
 
     # --- Qwen ---
-    if model_tag in ["qwen-plus-latest"]:
+    if model_tag in ["qwen-mt-plus"]:
         res = client_qwen.chat.completions.create(
-            model = "qwen-plus-latest",
+            model = "qwen-mt-plus",
             messages=[{"role": "user", "content": prompt}],
         )
         return res.choices[0].message.content
