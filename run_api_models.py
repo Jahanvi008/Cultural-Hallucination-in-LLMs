@@ -26,10 +26,15 @@ client_openrouter = OpenAI(
 DATASET_FILES = {
     ("precise", "en"): "PreciseWikiQA_EN.xlsx",
     ("precise", "gu"): "PreciseWikiQA_GU.xlsx",
+    ("precise", "hi"): "PreciseWikiQA_HI.xlsx",
     ("longwiki", "en"): "LongWikiQA_EN.xlsx",
     ("longwiki", "gu"): "LongWikiQA_GU.xlsx",
     ("nonexistent", "en"): "NonExistent_EN.xlsx",
     ("nonexistent", "gu"): "NonExistent_GU.xlsx",
+    ("nonexistent", "hi"): "NonExistent_HI.xlsx",
+    ("precise_ta", "en"): "PreciseWiki_Tamil_EN.xlsx",
+    ("precise_ta", "hi"): "PreciseWiki_Tamil_HI.xlsx",
+    ("precise_ta", "gu"): "PreciseWiki_Tamil_TA.xlsx",
 }
 
 # Prompt templates for dataset types
@@ -47,6 +52,13 @@ PROMPT_TEMPLATES = {
         "If the question is in Gujarati, answer in Gujarati. "
         "If the question is in English, answer in English. "
         "If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
+    ),
+    ("precise", "hi"): (
+        "You are a multilingual factual QA assistant. "
+        "Provide a short, precise answer (1–5 words). "
+        "If the question is in Hindi, answer in Hindi. "
+        "If the question is in English, answer in English. "
+        "If no factual answer exists, reply exactly: No Information Available/ जानकारी उपलब्ध नहीं है\n\nQuestion: {question}\nAnswer:"
     ),
     ("longwiki_answer", "en"): (
         "I would like you to act as a factual long-form answer generator for questions related to Gujarati culture.\n"
@@ -84,6 +96,31 @@ PROMPT_TEMPLATES = {
         "Provide a short, precise answer (1–5 words). "
         "If the question is in Gujarati, answer in Gujarati. "
         "If the question is in English, answer in English. "
+        "If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
+    ),
+    ("nonexistent", "hi"): (
+        "You are a multilingual factual QA assistant. "
+        "Provide a short, precise answer (1–5 words). "
+        "If the question is in Hindi, answer in Hindi. "
+        "If the question is in English, answer in English. "
+        "If no factual answer exists, reply exactly: No Information Available/ जानकारी उपलब्ध नहीं है\n\nQuestion: {question}\nAnswer:"
+    ),
+    ("precise_ta", "en"): (
+        "You are a multilingual factual QA assistant specializing in Tamil culture. "
+        "Provide a short, precise answer (1–5 words). "
+        "Answer in English. "
+        "If no factual answer exists, reply exactly: No Information Available\n\nQuestion: {question}\nAnswer:"
+    ),
+    ("precise_ta", "hi"): (
+        "You are a multilingual factual QA assistant specializing in Tamil culture. "
+        "Provide a short, precise answer (1–5 words). "
+        "Answer in Hindi. "
+        "If no factual answer exists, reply exactly: No Information Available/ जानकारी उपलब्ध नहीं है\n\nQuestion: {question}\nAnswer:"
+    ),
+    ("precise_ta", "gu"): (
+        "You are a multilingual factual QA assistant specializing in Tamil culture. "
+        "Provide a short, precise answer (1–5 words). "
+        "Answer in Gujarati. "
         "If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
     )
 }
@@ -164,9 +201,9 @@ def load_dataset(ds_dir, dtype, lang):
 
     # ---------------- GUJARATI ----------------
     elif lang == "gu":
-        q_col = "question_gujarati"
-        a_col = "answer_gujarati"
-        d_col = "domain_gujarati"
+        q_col = "question"
+        a_col = "gold_answer"
+        d_col = "domain"
 
         if q_col not in df.columns:
             raise ValueError(f"Expected '{q_col}' in Gujarati file. Found: {list(df.columns)}")
@@ -186,6 +223,39 @@ def load_dataset(ds_dir, dtype, lang):
         # ✅ Proper domain rename
         if d_col in df.columns:
             df = df.rename(columns={d_col: "domain"})
+        else:
+            df["domain"] = "unknown"
+
+    # ---------------- HINDI ----------------
+    elif lang == "hi":
+        q_col = "question"
+        a_col = "gold_answer"
+        d_col = "domain"
+
+        if q_col not in df.columns:
+            if "question" in df.columns:
+                q_col = "question"
+            else:
+                raise ValueError(f"Expected '{q_col}' or 'question' in Hindi file. Found: {list(df.columns)}")
+
+        df = df.rename(columns={q_col: "question"})
+
+        if a_col not in df.columns:
+            if "answer" in df.columns:
+                a_col = "answer"
+            elif dtype == "nonexistent":
+                df["gold_answer"] = "जानकारी उपलब्ध नहीं है"
+                a_col = None
+            else:
+                raise ValueError(f"Expected '{a_col}' or 'answer' in Hindi file. Found: {list(df.columns)}")
+
+        if a_col:
+            df = df.rename(columns={a_col: "gold_answer"})
+
+        if d_col in df.columns:
+            df = df.rename(columns={d_col: "domain"})
+        elif "domain" in df.columns:
+            df = df.rename(columns={"domain": "domain"})
         else:
             df["domain"] = "unknown"
 
