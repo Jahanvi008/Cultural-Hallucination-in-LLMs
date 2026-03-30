@@ -25,16 +25,16 @@ client_openrouter = OpenAI(
 # --- Dataset file map ---
 DATASET_FILES = {
     ("precise", "en"): "PreciseWikiQA_EN.xlsx",
-    ("precise", "gu"): "PreciseWikiQA_GU.xlsx",
+    ("precise", "ta"): "PreciseWikiQA_GU.xlsx",
     ("precise", "hi"): "PreciseWikiQA_HI.xlsx",
     ("longwiki", "en"): "LongWikiQA_EN.xlsx",
-    ("longwiki", "gu"): "LongWikiQA_GU.xlsx",
+    ("longwiki", "ta"): "LongWikiQA_GU.xlsx",
     ("nonexistent", "en"): "NonExistent_EN.xlsx",
-    ("nonexistent", "gu"): "NonExistent_GU.xlsx",
+    ("nonexistent", "ta"): "NonExistent_GU.xlsx",
     ("nonexistent", "hi"): "NonExistent_HI.xlsx",
     ("precise_ta", "en"): "PreciseWiki_Tamil_EN.xlsx",
     ("precise_ta", "hi"): "PreciseWiki_Tamil_HI.xlsx",
-    ("precise_ta", "gu"): "PreciseWiki_Tamil_TA.xlsx",
+    ("precise_ta", "ta"): "PreciseWiki_Tamil_TA.xlsx",
 }
 
 # Prompt templates for dataset types
@@ -46,7 +46,7 @@ PROMPT_TEMPLATES = {
         "If the question is in English, answer in English. "
         "If no factual answer exists, reply exactly: No Information Available\n\nQuestion: {question}\nAnswer:"
     ),
-    ("precise", "gu"): (
+    ("precise", "ta"): (
         "You are a multilingual factual QA assistant. "
         "Provide a short, precise answer (1–5 words). "
         "If the question is in Gujarati, answer in Gujarati. "
@@ -72,7 +72,7 @@ PROMPT_TEMPLATES = {
         "5. Do not include citations, bullet points, or meta-commentary — output only the final factual answer.\n"
         "6. If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
     ),
-    ("longwiki", "gu"): (
+    ("longwiki", "ta"): (
         "I would like you to act as a factual long-form answer generator for questions related to Gujarati culture.\n"
         "Your goal is to produce one detailed, factual answer grounded strictly in a relevant Wikipedia article.\n\n"
         "You should identify one Wikipedia article that directly supports the user’s question — for example, related to Gujarati food, festivals, geography, politics, holidays, education, family life, or traditional practices — and use only that article as your factual source.\n\n"
@@ -91,7 +91,7 @@ PROMPT_TEMPLATES = {
         "If the question is in English, answer in English. "
         "If no factual answer exists, reply exactly: No Information Available/ માહિતી ઉપલબ્ધ નથી\n\nQuestion: {question}\nAnswer:"
     ),
-    ("nonexistent", "gu"): (
+    ("nonexistent", "ta"): (
         "You are a multilingual factual QA assistant. "
         "Provide a short, precise answer (1–5 words). "
         "If the question is in Gujarati, answer in Gujarati. "
@@ -117,7 +117,7 @@ PROMPT_TEMPLATES = {
         "Answer in Hindi. "
         "If no factual answer exists, reply exactly: No Information Available/ जानकारी उपलब्ध नहीं है\n\nQuestion: {question}\nAnswer:"
     ),
-    ("precise_ta", "gu"): (
+    ("precise_ta", "ta"): (
         "You are a multilingual factual QA assistant specializing in Tamil culture. "
         "Provide a short, precise answer (1–5 words). "
         "Answer in Gujarati. "
@@ -145,7 +145,7 @@ PROMPT_TEMPLATES = {
 #         })
 
 #     # Gujarati dataset
-#     elif lang == "gu":
+#     elif lang == "ta":
 #         q_col = "question_gujarati"
 #         a_col = "answer_gujarati"
 #         if q_col not in df or a_col not in df:
@@ -200,7 +200,7 @@ def load_dataset(ds_dir, dtype, lang):
             df["domain"] = "unknown"
 
     # ---------------- GUJARATI ----------------
-    elif lang == "gu":
+    elif lang == "ta":
         q_col = "question"
         a_col = "gold_answer"
         d_col = "domain"
