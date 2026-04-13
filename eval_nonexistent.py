@@ -2,13 +2,15 @@ import json
 
 # Path to your JSONL file
 # FILE_PATH = "outputs/nonexistent/en/gpt-4o.jsonl"
-FILE_PATH = "outputs/nonexistent/hi/qwen-mt-plus.jsonl"
+FILE_PATH = "outputs/nonexistent_ta/ta/qwen-mt-plus.jsonl"
 
 REFUSALS = {
     "માહિતી ઉપલબ્ધ નથી",
     "No Information Available",
+    "தகவல் இல்லை",
     "No Information Available/ માહિતી ઉપલબ્ધ નથી",
     "जानकारी उपलब्ध नहीं है",
+    "कोई जानकारी उपलब्ध नहीं है",
     "No Information Available/ जानकारी उपलब्ध नहीं है",
     ""
 }

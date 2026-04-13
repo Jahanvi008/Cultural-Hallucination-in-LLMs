@@ -1,0 +1,2248 @@
+{
+  "judge_model": "gpt-4.1",
+  "false_refusal": 0.017857142857142856,
+  "hallu_rate_not_abstain": 0.13636363636363635,
+  "correct_rate": 0.8526785714285714,
+  "details": [
+    {
+      "id": 0,
+      "question": "चावल और दाल के किण्वित घोल से बना कौन सा स्टीम्ड केक तमिलनाडु में मुख्य नाश्ता है?",
+      "gold_answer": "इडली",
+      "model_answer": "इडली",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 1,
+      "question": "किण्वित चावल और दाल के घोल से बना कौन सा पतला, कुरकुरा क्रेप तमिल व्यंजनों में लोकप्रिय है?",
+      "gold_answer": "डोसा",
+      "model_answer": "डोसा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 2,
+      "question": "एक विशेष मसाले के मिश्रण के साथ पकाया जाने वाला गाढ़ा, दाल-आधारित सब्जी स्टू क्या है जिसे आमतौर पर चावल या इडली के साथ खाया जाता है?",
+      "gold_answer": "सांभर",
+      "model_answer": "सांभर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 3,
+      "question": "किस तमिल सामग्री में चपटे चावल के टुकड़े होते हैं जिन्हें आमतौर पर गुड़ या दूध के साथ मिलाया जाता है?",
+      "gold_answer": "अवल",
+      "model_answer": "अवल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 4,
+      "question": "मीठे (सक्कराई) और नमकीन किस्मों में उपलब्ध चावल का कौन सा पारंपरिक व्यंजन, एक प्रमुख तमिल फसल उत्सव के साथ अपना नाम साझा करता है?",
+      "gold_answer": "पोंगल",
+      "model_answer": "पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 5,
+      "question": "नाजुक स्ट्रिंग हॉपर में दबाए गए चावल के आटे से बना कौन सा भाप से पकाया हुआ व्यंजन तमिलनाडु में लोकप्रिय है?",
+      "gold_answer": "Idiyappam",
+      "model_answer": "इदियाप्पम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 6,
+      "question": "पके हुए चावल को दही के साथ मिलाकर और सरसों के बीज और करी पत्तों के साथ मिलाकर बनाए गए आरामदायक व्यंजन के लिए तमिल शब्द क्या है?",
+      "gold_answer": "थायिर सदाम",
+      "model_answer": "दही चावल (Thayir Sadam)",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 7,
+      "question": "तमिल चावल का कौन सा पारंपरिक व्यंजन मसालेदार इमली के पेस्ट और भुनी हुई मूंगफली से भरपूर होता है?",
+      "gold_answer": "पुलियोदराई",
+      "model_answer": "पुलीयोदराई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 8,
+      "question": "मदुरै, तमिलनाडु का कौन सा प्रसिद्ध ठंडा दूध पेय बादाम गोंद, सरसापैरिला सिरप (नन्नारी) और आइसक्रीम के साथ मिलाया जाता है?",
+      "gold_answer": "जिगरथंडा",
+      "model_answer": "जिगरथंडा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 9,
+      "question": "सेंवई, दाल या चपटे चावल जैसी सामग्री के साथ दूध और चीनी को उबालकर बनाए जाने वाले पारंपरिक तमिल मीठे हलवे के लिए सामान्य शब्द क्या है?",
+      "gold_answer": "पायसम",
+      "model_answer": "पायसम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 10,
+      "question": "कौन सा पारंपरिक तमिल पतला सूप या ग्रेवी इमली, काली मिर्च और जीरा से भरपूर होती है?",
+      "gold_answer": "रसम",
+      "model_answer": "रसम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 11,
+      "question": "कौन सा लोकप्रिय डीप-फ्राइड तमिल नमकीन स्नैक अपने विशिष्ट, कुरकुरे सर्पिल आकार के लिए जाना जाता है?",
+      "gold_answer": "मुरुक्कू",
+      "model_answer": "मुरुक्कू",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 12,
+      "question": "कौन सा तमिल व्यंजन, जो मीठे और नमकीन संस्करणों में उपलब्ध है, एक विशेष पैन में कई छोटे-छोटे छेदों के साथ बैटर को भाप देकर बनाया जाता है?",
+      "gold_answer": "कुझी पनियारम",
+      "model_answer": "पनियारम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 13,
+      "question": "चावल के आटे से बनी और आमतौर पर गुड़ और नारियल से भरी कौन सी मीठी पकौड़ी पारंपरिक रूप से गणेश चतुर्थी के दौरान तैयार की जाती है?",
+      "gold_answer": "कोझुकट्टई",
+      "model_answer": "मोदक",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 14,
+      "question": "तमिलनाडु में कौन सा डीप-फ्राइड, कुरकुरा, डिस्क के आकार का चावल के आटे का नाश्ता लोकप्रिय है?",
+      "gold_answer": "थट्टई",
+      "model_answer": "थट्टई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 15,
+      "question": "तमिलनाडु की कौन सी मिठाई अपनी अनूठी, गहरे गेहूं-आधारित बनावट के लिए प्रसिद्ध है, जो आमतौर पर तिरुनेलवेली से जुड़ी है?",
+      "gold_answer": "हलवा",
+      "model_answer": "तिरुनेलवेली हलवा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 16,
+      "question": "सूखी सब्जी के व्यंजन के लिए सामान्य तमिल शब्द क्या है जहां सामग्री को भून लिया जाता है और आमतौर पर उसके ऊपर ताजा कसा हुआ नारियल डाला जाता है?",
+      "gold_answer": "पोरियाल",
+      "model_answer": "पोरीयल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 17,
+      "question": "वह कौन सा तमिल व्यंजन है जिसमें सब्जियों और दालों को पिसे हुए नारियल और जीरे के पेस्ट के साथ उबाला जाता है?",
+      "gold_answer": "कूटू",
+      "model_answer": "अवियल",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 18,
+      "question": "मसालेदार, तड़के वाले आम के अचार के लिए पारंपरिक तमिल शब्द क्या है?",
+      "gold_answer": "मंगाई उरकाई",
+      "model_answer": "மாங்காய் தொக்கு",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 19,
+      "question": "कौन सा कटोरे के आकार का किण्वित चावल पैनकेक, जिसमें आमतौर पर एक नरम, स्पंजी केंद्र और कुरकुरा, लेस जैसे किनारे होते हैं, तमिल व्यंजनों में लोकप्रिय है?",
+      "gold_answer": "अप्पम",
+      "model_answer": "अप्पम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 20,
+      "question": "कौन सी पारंपरिक तमिल मिठाई, जो अक्सर दिवाली के लिए बनाई जाती है, चावल के आटे और गुड़ के किण्वित घोल से बनी एक गहरी तली हुई, गहरे भूरे रंग की डिस्क है?",
+      "gold_answer": "अधिरसम",
+      "model_answer": "अतिरासम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 21,
+      "question": "गर्मियों में ताज़ा पेय के रूप में अक्सर परोसे जाने वाले मसालेदार, पतला छाछ के लिए तमिल शब्द क्या है?",
+      "gold_answer": "नीर मोर",
+      "model_answer": "नीर मोर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 22,
+      "question": "भुनी हुई सूजी को तड़के वाले मसालों और सब्जियों के साथ पकाकर कौन सा लोकप्रिय दक्षिण भारतीय नाश्ता व्यंजन बनाया जाता है?",
+      "gold_answer": "उपमा",
+      "model_answer": "उपमा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 23,
+      "question": "कौन सी पारंपरिक तमिल कैंडी भुनी हुई मूंगफली को गुड़ की गाढ़ी चाशनी के साथ मिलाकर बनाई जाती है?",
+      "gold_answer": "कदलाई मित्तई",
+      "model_answer": "कडालाई मिट्टाई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 24,
+      "question": "कौन सी पारंपरिक तमिल मिठाई चमकीले नारंगी रंग की होती है, जिसे फूल जैसी कुंडल आकृति में डीप फ्राई किया जाता है और चीनी की चाशनी में भिगोया जाता है?",
+      "gold_answer": "जंगीरी",
+      "model_answer": "जांगिरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 25,
+      "question": "किस साधारण तमिल नाश्ते में मुरमुरे को चिपचिपी गुड़ की चाशनी का उपयोग करके गोलाकार गेंदों में लपेटा जाता है?",
+      "gold_answer": "पोरी उरुंडई",
+      "model_answer": "पोरी उरुंडई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 26,
+      "question": "काली मिर्च, स्टार ऐनीज़ और भुने हुए मसालों से भरपूर तीव्र मसालेदार मांस व्यंजन, नट्टुकोटाई चेट्टियार समुदाय की पहचान है?",
+      "gold_answer": "चेट्टीनाड मटन",
+      "model_answer": "हाँ",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 27,
+      "question": "पारंपरिक तमिल भोजन की शुरुआत में अक्सर चावल और घी के साथ मिश्रित की जाने वाली साधारण, गाढ़ी उबली दाल क्या होती है?",
+      "gold_answer": "पारुप्पु",
+      "model_answer": "परुप्पु\"",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 28,
+      "question": "कौन सी लोकप्रिय, अधिक उपज देने वाली चावल की किस्म तमिलनाडु में विकसित की गई थी और माना जाता है कि इसका नाम कावेरी नदी के नाम पर रखा गया था?",
+      "gold_answer": "पोन्नी राइस",
+      "model_answer": "कावेरी (Cauvery)",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 29,
+      "question": "कौन सा किण्वित बाजरा दलिया पारंपरिक रूप से तमिलनाडु में खाया जाता है और अक्सर आदी महीने के दौरान मंदिरों में चढ़ाया जाता है?",
+      "gold_answer": "कूझ",
+      "model_answer": "कूळ",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 30,
+      "question": "तमिलनाडु में आम तौर पर नाश्ते के किस व्यंजन में पिसे हुए चावल के आटे और ताज़ा कसा हुआ नारियल की उबली हुई, बेलनाकार परतें होती हैं?",
+      "gold_answer": "पुत्तु",
+      "model_answer": "पुट्टु",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 31,
+      "question": "चना दाल, गुड़ और नारियल के मिश्रण से भरी कौन सी पारंपरिक मीठी फ्लैटब्रेड, त्योहारों के दौरान तमिलनाडु में लोकप्रिय है?",
+      "gold_answer": "राजनीति",
+      "model_answer": "पोली",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 32,
+      "question": "डोसा का कौन सा गाढ़ा, पैनकेक जैसा रूप पारंपरिक रूप से सीधे तवे पर कटा हुआ प्याज, टमाटर और मिर्च के साथ डाला जाता है?",
+      "gold_answer": "उथप्पम",
+      "model_answer": "उत्तपम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 33,
+      "question": "ताजा नारियल को हरी मिर्च, भुनी हुई दाल के साथ पीसकर और सरसों के बीज के साथ तड़का लगाकर कौन सा मुख्य दक्षिण भारतीय मसाला बनाया जाता है?",
+      "gold_answer": "थेंगई चटनी",
+      "model_answer": "चटनी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 34,
+      "question": "जनवरी के मध्य में तमिलों द्वारा कौन सा फसल उत्सव व्यापक रूप से मनाया जाता है?",
+      "gold_answer": "पोंगल",
+      "model_answer": "पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 35,
+      "question": "पोंगल त्यौहार परंपरागत रूप से कितने दिनों तक चलता है?",
+      "gold_answer": "चार दिन",
+      "model_answer": "चार दिन",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 36,
+      "question": "पोंगल त्यौहार के पहले दिन को क्या कहा जाता है?",
+      "gold_answer": "भोगी",
+      "model_answer": "भोगी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 37,
+      "question": "पोंगल त्यौहार के दूसरे और मुख्य दिन को क्या कहा जाता है?",
+      "gold_answer": "थाई पोंगल",
+      "model_answer": "सूर्य पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 38,
+      "question": "मवेशियों को समर्पित पोंगल त्यौहार के तीसरे दिन को क्या कहा जाता है?",
+      "gold_answer": "मट्टू पोंगल",
+      "model_answer": "मट्टू पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 39,
+      "question": "पोंगल त्यौहार के चौथे और अंतिम दिन को क्या कहा जाता है?",
+      "gold_answer": "कन्नुम पोंगल",
+      "model_answer": "कानुम पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 40,
+      "question": "थाई पोंगल पर सूर्य के किस हिंदू देवता को मुख्य रूप से सम्मानित किया जाता है?",
+      "gold_answer": "सूर्य",
+      "model_answer": "सूर्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 41,
+      "question": "पोंगल के दौरान पारंपरिक रूप से कौन सी नई कटी हुई फसल पकाई जाती है?",
+      "gold_answer": "चावल",
+      "model_answer": "चावल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 42,
+      "question": "पोंगल उत्सव के दौरान तैयार किये जाने वाले मीठे गुड़ और चावल के व्यंजन का क्या नाम है?",
+      "gold_answer": "सक्कराई पोंगल",
+      "model_answer": "सक्कराई पोंगल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 43,
+      "question": "पोंगल किस तमिल महीने में मनाया जाता है?",
+      "gold_answer": "थाई",
+      "model_answer": "थाई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 44,
+      "question": "तमिल में \"पोंगल\" शब्द का शाब्दिक अर्थ क्या है?",
+      "gold_answer": "उबालना",
+      "model_answer": "उबालना या उफनना",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 45,
+      "question": "सांडों को वश में करने का कौन सा पारंपरिक खेल तमिलनाडु में पोंगल के मौसम से गहराई से जुड़ा हुआ है?",
+      "gold_answer": "जल्लीकट्टू",
+      "model_answer": "जल्लीकट्टू",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 46,
+      "question": "कौन सा त्योहार तमिल नव वर्ष की शुरुआत का प्रतीक है?",
+      "gold_answer": "पुथंडू",
+      "model_answer": "पुथांडु",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 47,
+      "question": "पुथंडु किस तमिल महीने में आता है?",
+      "gold_answer": "चिथिराई",
+      "model_answer": "चित्तिरै",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 48,
+      "question": "पुथंडु आमतौर पर किस ग्रेगोरियन महीने के आसपास पड़ता है?",
+      "gold_answer": "अप्रैल",
+      "model_answer": "अप्रैल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 49,
+      "question": "कच्चे आम और नीम के फूलों से बना कौन सा क्लासिक मीठा, खट्टा और कड़वा व्यंजन पुथंडु पर तैयार किया जाता है?",
+      "gold_answer": "मंगई पचड़ी",
+      "model_answer": "मांगा पचड़ी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 50,
+      "question": "कौन सा त्यौहार भगवान मुरुगन का भारी सम्मान करता है जिसमें भक्त कावड़ी नामक शारीरिक बोझ उठाते हैं?",
+      "gold_answer": "थाईपुसम",
+      "model_answer": "थाईपुसम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 51,
+      "question": "कौन सा विशिष्ट तारा संरेखण त्योहार थाईपुसम को इसका नाम देता है?",
+      "gold_answer": "पुसम तारा",
+      "model_answer": "पुसम तारा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 52,
+      "question": "आदि माह के 18वें दिन मनाया जाने वाला कौन सा तमिल त्योहार पानी के जीवनदायी गुणों का जश्न मनाता है?",
+      "gold_answer": "आदि पेरुक्कु",
+      "model_answer": "आदि पेरुक्कु",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 53,
+      "question": "आदि पेरुक्कू पारंपरिक रूप से किस प्रमुख नदी के बढ़ते जल स्तर का जश्न मनाता है?",
+      "gold_answer": "कावेरी (पोन्नी) नदी",
+      "model_answer": "कावेरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 54,
+      "question": "रोशनी का कौन सा तमिल त्योहार मिट्टी के तेल के दीयों की कतारों से घरों को रोशन करने के लिए प्रसिद्ध है?",
+      "gold_answer": "कार्तिगाई दीपम",
+      "model_answer": "कार्तिकई दीपम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 55,
+      "question": "कार्तिगाई दीपम किस तमिल महीने में होता है?",
+      "gold_answer": "कार्तिगाई",
+      "model_answer": "कार्तिगाई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 56,
+      "question": "कौन सा शहर अरुणाचल पहाड़ी के ऊपर सबसे प्रसिद्ध कार्तिगाई दीपम अग्नि अनुष्ठान का आयोजन करता है?",
+      "gold_answer": "तिरुवन्नामलाई",
+      "model_answer": "तिरुवन्नामलाई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 57,
+      "question": "कार्तिगाई दीपम के दौरान अरुणाचल पहाड़ी के ऊपर जलाए गए विशाल अग्नि स्तंभ का क्या नाम है?",
+      "gold_answer": "महादीपम",
+      "model_answer": "महा दीपम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 58,
+      "question": "कौन सा त्योहार तमिल कैलेंडर के आखिरी महीने में होने वाले शिव और पार्वती के दिव्य विवाह का जश्न मनाता है?",
+      "gold_answer": "पंगुनी उथिरम",
+      "model_answer": "पंगुनी उथीराम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 59,
+      "question": "मदुरै में कौन सा प्रमुख, महीने भर चलने वाला उत्सव एक देवी की दिव्य शादी को दोहराता है और एक भव्य जुलूस पेश करता है?",
+      "gold_answer": "चिथिराई तिरुविझा",
+      "model_answer": "मीनाक्षी कल्याणम",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 60,
+      "question": "किस विशिष्ट देवी का विवाह चिथिराई थिरुविझा उत्सव का केंद्र है?",
+      "gold_answer": "मीनाक्षी",
+      "model_answer": "मीनाक्षी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 61,
+      "question": "भगवान कल्लाझागर द्वारा की गई कौन सी नदी पार करने की घटना चिथिराई थिरुविझा का एक प्रसिद्ध हिस्सा है?",
+      "gold_answer": "वैगई नदी पार करना",
+      "model_answer": "वैगई नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 62,
+      "question": "अरुद्र दरिसनम के लिए पारंपरिक और विशेष रूप से कौन सा विशिष्ट मीठा व्यंजन तैयार किया जाता है?",
+      "gold_answer": "तिरुवथिराई काली",
+      "model_answer": "काली",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 63,
+      "question": "आदि माह में कौन सा तमिल त्योहार देवी अंडाल का सम्मान करता है?",
+      "gold_answer": "आदि पूरम",
+      "model_answer": "आदि पूरम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 64,
+      "question": "भगवान कृष्ण के जन्म का जश्न मनाने वाले त्योहार का तमिल नाम क्या है?",
+      "gold_answer": "कृष्ण जयन्ती",
+      "model_answer": "கோகுலாஷ்டமி",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 65,
+      "question": "कृष्ण जयंती के दौरान शिशु कृष्ण के घर में प्रवेश करने का प्रतीक कौन सा विशिष्ट पैटर्न बनाना है?",
+      "gold_answer": "चावल के आटे के पदचिह्न",
+      "model_answer": "शिशु कृष्ण के चरण चिह्न",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 66,
+      "question": "चतुर्थी के दौरान व्यापक रूप से पूजे जाने वाले हाथी के सिर वाले भगवान का तमिल नाम क्या है?",
+      "gold_answer": "पिल्लयार (विनयनगर)",
+      "model_answer": "பிள்ளையார்",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 67,
+      "question": "पारंपरिक रूप से पिल्लयार को उनके त्योहार के दौरान कौन सी मीठी, उबली हुई पकौड़ी पेश की जाती है?",
+      "gold_answer": "मोथागाम",
+      "model_answer": "मोदक",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 68,
+      "question": "नवरात्रि के दौरान तमिल घरों में कौन सी स्तरीय, विषयगत गुड़िया प्रदर्शन एक केंद्रीय परंपरा है?",
+      "gold_answer": "बोम्मई गोलू",
+      "model_answer": "गोलू",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 69,
+      "question": "ज्ञान की देवी का सम्मान करने के लिए नवरात्रि के दौरान कौन सा विशेष प्रार्थना दिवस मनाया जाता है?",
+      "gold_answer": "सरस्वती पूजा",
+      "model_answer": "सरस्वती पूजा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 70,
+      "question": "सरस्वती पूजा के दौरान आशीर्वाद पाने के लिए परंपरागत रूप से कौन सी वस्तुएं देवता के सामने रखी जाती हैं?",
+      "gold_answer": "किताबें और शैक्षिक उपकरण",
+      "model_answer": "किताबें, कलम, वाद्ययंत्र",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 71,
+      "question": "कौन सा त्योहार नवरात्रि के विजयी अंतिम (दसवें) दिन को दर्शाता है?",
+      "gold_answer": "Vijayadashami",
+      "model_answer": "विजयादशमी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 72,
+      "question": "कौन सी विशिष्ट, सुबह-सुबह तेल स्नान परंपरा तमिल दीपावली उत्सव की पहचान है?",
+      "gold_answer": "गंगा स्नानम",
+      "model_answer": "गंगा स्नान",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 73,
+      "question": "भगवान कृष्ण द्वारा किस पौराणिक राक्षस की हार दक्षिण भारतीयों द्वारा दीपावली मनाने का मुख्य कारण है?",
+      "gold_answer": "नरकासुर",
+      "model_answer": "नरकासुर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 74,
+      "question": "मौसम, औषधि और प्रजनन क्षमता की किस ग्रामीण देवी को गाँव के त्योहारों में भारी मात्रा में मनाया जाता है?",
+      "gold_answer": "मरियम्मा",
+      "model_answer": "मारियम्मन",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 75,
+      "question": "अम्मान त्योहारों के दौरान अक्सर की जाने वाली तीव्र अग्नि-चलन अनुष्ठान के लिए तमिल शब्द क्या है?",
+      "gold_answer": "थिएमिथी",
+      "model_answer": "थीमिथी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 76,
+      "question": "चावल के आटे का उपयोग करके तमिल घरों के प्रवेश द्वारों पर पारंपरिक रूप से कौन सी सजावटी, ज्यामितीय फर्श कला बनाई जाती है?",
+      "gold_answer": "कोलम",
+      "model_answer": "कोलम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 77,
+      "question": "तमिल मंदिर के जुलूसों में कौन सा पारंपरिक डबल-रीड पवन वाद्य एक आवश्यक संगीत संगत है?",
+      "gold_answer": "नादस्वरम",
+      "model_answer": "नादस्वरम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 78,
+      "question": "त्योहारों के दौरान नादस्वरम के साथ आमतौर पर कौन सा पारंपरिक, बैरल के आकार का ड्रम बजाया जाता है?",
+      "gold_answer": "थाविल",
+      "model_answer": "थविल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 79,
+      "question": "तमिल मंदिर त्योहारों में कौन सा भव्य आयोजन होता है जहां देवता को लकड़ी के विशाल रथ में सड़कों पर खींचा जाता है?",
+      "gold_answer": "थेर थिरुविज़ा (मंदिर कार महोत्सव)",
+      "model_answer": "रथ यात्रा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 80,
+      "question": "बहु-पाठ्यक्रम उत्सव भोजन परोसने के लिए प्लेट के रूप में किस बड़े, प्राकृतिक पत्ते का पारंपरिक रूप से उपयोग किया जाता है?",
+      "gold_answer": "वाज़हाई इलाई (केले का पत्ता)",
+      "model_answer": "केले का पत्ता",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 81,
+      "question": "शिव मंदिर उत्सवों के दौरान माथे पर लगाई जाने वाली पवित्र सफेद राख के लिए तमिल शब्द क्या है?",
+      "gold_answer": "तिरुनेरु (विभूति)",
+      "model_answer": "திருநீறு",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 82,
+      "question": "मंदिर के जुलूसों के दौरान कौन सा जानवर भगवान मुरुगन के लिए पारंपरिक वाहन या सवारी (वाहनम) के रूप में कार्य करता है?",
+      "gold_answer": "मोर (मयिल)",
+      "model_answer": "मोर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 83,
+      "question": "कौन सा बैल जुलूसों में भगवान शिव की पारंपरिक सवारी (वाहनम) के रूप में कार्य करता है?",
+      "gold_answer": "नंदी",
+      "model_answer": "नंदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 84,
+      "question": "मुरुगन त्योहारों के दौरान भक्त किस प्रकार का अनुष्ठान बर्तन, अक्सर अपने सिर पर रखकर प्रसाद के रूप में ले जाते हैं?",
+      "gold_answer": "पाल कुदाम (दूध का बर्तन)",
+      "model_answer": "कावड़ी",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 85,
+      "question": "तमिल गाँव के त्योहारों में महिलाओं द्वारा ताली बजाते हुए किया जाने वाला कौन सा गोलाकार लोक नृत्य आम है?",
+      "gold_answer": "कुम्मी",
+      "model_answer": "कुम्मी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 86,
+      "question": "उत्सवों के दौरान रंगीन लकड़ी की छड़ियों को बजाने वाला कौन सा लयबद्ध लोक नृत्य किया जाता है?",
+      "gold_answer": "कोलाट्टम",
+      "model_answer": "डांडिया रास",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 87,
+      "question": "संगम काल का कौन सा शास्त्रीय तमिल व्याकरण पाठ तमिल साहित्य का सबसे पुराना जीवित कार्य है, जो समाज और रिश्तों पर चर्चा करता है?",
+      "gold_answer": "Tolkappiyam",
+      "model_answer": "तोलकाप्पियम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 88,
+      "question": "1,330 दोहों से युक्त कौन सा क्लासिक तमिल नैतिक पाठ, पारिवारिक गुणों, धन और प्रेम पर प्रसिद्ध रूप से चर्चा करता है?",
+      "gold_answer": "तिरुक्कुरल",
+      "model_answer": "तिरुक्कुरल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 89,
+      "question": "तिरुक्कुरल के रचनाकार का श्रेय प्राचीन तमिल कवि और दार्शनिक किसे है?",
+      "gold_answer": "तिरुवल्लुवर",
+      "model_answer": "तिरुवल्लुवर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 90,
+      "question": "तिरुक्कुरल का कौन सा खंड (पुस्तक) सदाचार, नैतिकता और घरेलू पारिवारिक जीवन पर केंद्रित है?",
+      "gold_answer": "अराम (सदाचार की पुस्तक)",
+      "model_answer": "अरत्तुप्पाल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 91,
+      "question": "तिरुक्कुरल का कौन सा खंड (पुस्तक) राजनीति, धन और सामाजिक जीवन से संबंधित है?",
+      "gold_answer": "पोरुल (राजव्यवस्था की पुस्तक)",
+      "model_answer": "पोरुल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 92,
+      "question": "तिरुक्कुरल का कौन सा खंड (पुस्तक) प्रेम और रोमांस पर चर्चा करता है?",
+      "gold_answer": "इनबाम (प्यार की किताब)",
+      "model_answer": "कामत्तुप्पाल",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 93,
+      "question": "20वीं सदी की शुरुआत में तमिलनाडु में समान अधिकारों, जातिवाद-विरोध और क्षेत्रीय गौरव की वकालत करने वाला कौन सा प्रमुख सामाजिक-राजनीतिक आंदोलन उभरा?",
+      "gold_answer": "द्रविड़ आंदोलन",
+      "model_answer": "आत्म-सम्मान आंदोलन",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 94,
+      "question": "पारंपरिक जाति-आधारित रीति-रिवाजों को चुनौती देने और तमिल समाज में समानता को बढ़ावा देने के लिए 1925 में किस विशिष्ट राजनीतिक आंदोलन की स्थापना की गई थी?",
+      "gold_answer": "स्वाभिमान आंदोलन",
+      "model_answer": "आत्म-सम्मान आंदोलन",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 95,
+      "question": "किस प्रमुख समाज सुधारक एवं राजनीतिज्ञ ने स्वाभिमान आंदोलन की स्थापना की?",
+      "gold_answer": "पेरियार ई. वी. रामासामी",
+      "model_answer": "पेरियार",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 96,
+      "question": "तमिलनाडु में किस प्रकार के विवाह सुधार को 1967 में वैध बनाया गया, जिसने जोड़ों को पारंपरिक ब्राह्मण पुजारियों या धार्मिक अनुष्ठानों के बिना विवाह करने की अनुमति दी?",
+      "gold_answer": "स्वाभिमान विवाह (सुया मरियाथाई)",
+      "model_answer": "आत्म-सम्मान विवाह",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 97,
+      "question": "कौन सा ब्रिटिश क्राउन कॉलोनी (अब आधुनिक श्रीलंका) 19वीं और 20वीं शताब्दी में वृक्षारोपण कार्य के लिए भारत से हजारों तमिलों को लाया था?",
+      "gold_answer": "लंका",
+      "model_answer": "सीलोन",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 98,
+      "question": "ब्रिटिश सीलोन में किस प्रमुख वृक्षारोपण फसल ने बड़ी संख्या में तमिल प्रवासी श्रमिक परिवारों को रोजगार दिया?",
+      "gold_answer": "चाय",
+      "model_answer": "चाय",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 99,
+      "question": "सांडों को वश में करने का कौन सा प्राचीन खेल, जिसकी जड़ें तमिल शास्त्रीय काल से जुड़ी हैं, पारंपरिक रूप से पोंगल त्योहार के दौरान किया जाता है?",
+      "gold_answer": "जल्लीकट्टू",
+      "model_answer": "ERROR: Gemini API call failed - 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "is_abstaining": true,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": true }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 100,
+      "question": "तमिलनाडु की कौन सी प्राचीन हथियार-आधारित मार्शल आर्ट मुख्य रूप से लंबे बांस के डंडे का उपयोग करती है?",
+      "gold_answer": "सिलंबम",
+      "model_answer": "सिलंबम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 101,
+      "question": "कौड़ी के गोले या इमली के बीज के साथ खेले जाने वाले पारंपरिक दो-खिलाड़ियों मनकाला-शैली के बोर्ड गेम की ऐतिहासिक जड़ें तमिलनाडु में हैं?",
+      "gold_answer": "पलंगुझी",
+      "model_answer": "हाँ।",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 102,
+      "question": "कौन सा पारंपरिक मिट्टी-बर्तन तोड़ने वाला उत्सव खेल कृष्ण जयंती जैसे तमिल उत्सवों का एक ऐतिहासिक प्रमुख खेल है?",
+      "gold_answer": "uriyadi",
+      "model_answer": "उरियाडी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 103,
+      "question": "1916 में स्थापित, चेन्नई में स्थित सबसे पुराना लगातार उपयोग किया जाने वाला क्रिकेट स्टेडियम कौन सा है?",
+      "gold_answer": "एम. ए. चिदम्बरम स्टेडियम (चेपॉक)",
+      "model_answer": "चेपॉक स्टेडियम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 104,
+      "question": "तमिलनाडु के किस शहर ने (अपने पूर्व नाम के तहत) 1995 में 7वें दक्षिण एशियाई खेलों की मेजबानी की थी?",
+      "gold_answer": "मद्रास (चेन्नई)",
+      "model_answer": "मद्रास",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 105,
+      "question": "तमिलनाडु की राजधानी क्या है?",
+      "gold_answer": "चेन्नई",
+      "model_answer": "चेन्नई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 106,
+      "question": "कौन सी प्रमुख नदी, जिसे अक्सर दक्षिण की गंगा कहा जाता है, तमिलनाडु से होकर बहने वाली सबसे लंबी नदी मानी जाती है?",
+      "gold_answer": "कावेरी",
+      "model_answer": "कावेरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 107,
+      "question": "तमिलनाडु किस देश में स्थित है?",
+      "gold_answer": "भारत",
+      "model_answer": "भारत",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 108,
+      "question": "पूर्व में तमिलनाडु की सीमा किस समुद्र से लगती है?",
+      "gold_answer": "बंगाल की खाड़ी",
+      "model_answer": "बंगाल की खाड़ी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 109,
+      "question": "तमिलनाडु के निकट कौन सी जलडमरूमध्य भारत और श्रीलंका को अलग करती है?",
+      "gold_answer": "पाक जलडमरूमध्य",
+      "model_answer": "पाक जलडमरूमध्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 110,
+      "question": "तमिलनाडु का सबसे दक्षिणी जिला कौन सा है?",
+      "gold_answer": "कन्याकुमारी जिला",
+      "model_answer": "कन्याकुमारी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 111,
+      "question": "कौन सी पर्वत श्रृंखला पश्चिमी तमिलनाडु के साथ लगातार चलती रहती है?",
+      "gold_answer": "पश्चिमी घाट",
+      "model_answer": "पश्चिमी घाट",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 112,
+      "question": "तमिलनाडु में किस हिल स्टेशन को प्यार से \"हिल स्टेशनों की रानी\" कहा जाता है?",
+      "gold_answer": "ऊटी (उधगमंडलम)",
+      "model_answer": "ऊटी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 113,
+      "question": "कौन सा बड़ा पठार उत्तर-पश्चिमी तमिलनाडु के कुछ हिस्सों को कवर करता है?",
+      "gold_answer": "दक्कन का पठार",
+      "model_answer": "दक्कन का पठार",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 114,
+      "question": "नीलगिरि पर्वत क्षेत्र में कौन सा जीवमंडल आरक्षित क्षेत्र शामिल है?",
+      "gold_answer": "नीलगिरि बायोस्फीयर रिजर्व",
+      "model_answer": "नीलगिरि जीवमंडल आरक्षित क्षेत्र",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 115,
+      "question": "कौन सी प्रमुख नदी तिरुचिरापल्ली शहर से होकर बहती है?",
+      "gold_answer": "कावेरी",
+      "model_answer": "कावेरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 116,
+      "question": "सेलम जिले के निकट कावेरी नदी पर बना प्रमुख बांध कौन सा है?",
+      "gold_answer": "मेट्टूर बांध",
+      "model_answer": "मेट्टूर बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 117,
+      "question": "हाथियों की आबादी के लिए प्रसिद्ध कौन सा राष्ट्रीय उद्यान और वन्यजीव अभयारण्य नीलगिरि पहाड़ियों में स्थित है?",
+      "gold_answer": "मुदुमलाई राष्ट्रीय उद्यान",
+      "model_answer": "मुदुमलाई राष्ट्रीय उद्यान",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 118,
+      "question": "कौन सी प्रमुख नदी सीधे मदुरै शहर से होकर बहती है?",
+      "gold_answer": "वैगई नदी",
+      "model_answer": "वैगई नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 119,
+      "question": "1959 में खोला गया कौन सा प्रमुख बांध मदुरै से बहने वाली प्राथमिक नदी पर बनाया गया है?",
+      "gold_answer": "वैगई बांध",
+      "model_answer": "वैगई बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 120,
+      "question": "तमिलनाडु के ठीक दक्षिण पूर्व में कौन सी खाड़ी स्थित है?",
+      "gold_answer": "मन्नार की खाड़ी",
+      "model_answer": "बंगाल की खाड़ी",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 121,
+      "question": "थूथुकुडी और रामनाथपुरम के तट पर 21 छोटे द्वीपों और मूंगा चट्टानों से युक्त संरक्षित समुद्री क्षेत्र का नाम क्या है?",
+      "gold_answer": "मन्नार की खाड़ी समुद्री राष्ट्रीय उद्यान",
+      "model_answer": "मन्नार की खाड़ी राष्ट्रीय उद्यान",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 122,
+      "question": "तमिलनाडु की सबसे ऊँची पर्वत चोटी कौन सी है?",
+      "gold_answer": "Doddabetta",
+      "model_answer": "डोड्डाबेट्टा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 123,
+      "question": "डोड्डाबेट्टा चोटी किस पहाड़ी श्रृंखला में स्थित है?",
+      "gold_answer": "नीलगिरि पहाड़ियाँ",
+      "model_answer": "नीलगिरि पहाड़ियाँ",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 124,
+      "question": "कौन सा शहर तमिलनाडु की कपड़ा राजधानी के रूप में जाना जाता है?",
+      "gold_answer": "कोयंबटूर",
+      "model_answer": "करूर",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 125,
+      "question": "कौन सी बारहमासी नदी तिरुनेलवेली से होकर बहती है?",
+      "gold_answer": "थमिराबरानी नदी",
+      "model_answer": "ताम्रपर्णी नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 126,
+      "question": "थामिराबरानी नदी पर कौन सा प्रमुख बांध बनाया गया है?",
+      "gold_answer": "पापनासम बांध",
+      "model_answer": "पापनासम बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 127,
+      "question": "कौन सा प्रमुख वर्षा आधारित जलाशय चेन्नई को पीने के पानी की आपूर्ति करने वाली सबसे प्रमुख मीठे पानी की झीलों में से एक है?",
+      "gold_answer": "चेंबरमबक्कम झील",
+      "model_answer": "चेम्बरमबक्कम झील",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 128,
+      "question": "कौन सा बड़ा लैगून तमिलनाडु और आंध्र प्रदेश के बीच की सीमा पर स्थित है?",
+      "gold_answer": "पुलिकट झील",
+      "model_answer": "पुलिकट लैगून",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 129,
+      "question": "पुलिकट झील पर कौन सा पक्षी अभयारण्य स्थित है?",
+      "gold_answer": "पुलिकट झील पक्षी अभयारण्य",
+      "model_answer": "पुलिकट पक्षी अभयारण्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 130,
+      "question": "कौन सा जिला ऊटी शहर के प्रशासनिक मुख्यालय के रूप में कार्य करता है?",
+      "gold_answer": "नीलगिरी जिला",
+      "model_answer": "नीलगिरि जिला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 131,
+      "question": "तमिलनाडु का कौन सा औद्योगिक शहर नोय्यल नदी के तट पर स्थित है?",
+      "gold_answer": "तिरुपूर",
+      "model_answer": "कोयंबतूर",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 132,
+      "question": "कौन सी नदी पश्चिमी घाट से निकलती है और परंगीपेट्टई (पोर्टो नोवो) के पास बंगाल की खाड़ी में बहती है?",
+      "gold_answer": "वेल्लार नदी",
+      "model_answer": "कावेरी नदी",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 133,
+      "question": "लोकप्रिय हिल स्टेशन कोडईकनाल किस जिले में स्थित है?",
+      "gold_answer": "डिंडीगुल जिला",
+      "model_answer": "डिंडीगुल जिला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 134,
+      "question": "कोडईकनाल किन विशिष्ट पहाड़ियों में स्थित है?",
+      "gold_answer": "पलानी हिल्स",
+      "model_answer": "पलनी पहाड़ियाँ",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 135,
+      "question": "कोडईकनाल शहर के केंद्र में कौन सी मानव निर्मित, तारे के आकार की झील स्थित है?",
+      "gold_answer": "कोडाइकनाल झील",
+      "model_answer": "कोडईकनाल झील",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 136,
+      "question": "तमिलनाडु में कौन सा राष्ट्रीय उद्यान (इंदिरा गांधी वन्यजीव अभयारण्य के रूप में भी जाना जाता है) शेर-पूंछ वाले मकाक की रक्षा करता है?",
+      "gold_answer": "अनामलाई टाइगर रिजर्व",
+      "model_answer": "अनामलाई राष्ट्रीय उद्यान",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 137,
+      "question": "कौन सा प्रमुख बाघ अभयारण्य इरोड जिले में स्थित है?",
+      "gold_answer": "सत्यमंगलम टाइगर रिजर्व",
+      "model_answer": "सत्यमंगलम बाघ अभयारण्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 138,
+      "question": "कौन सी पर्वत श्रृंखला नीलगिरि पठार की पूर्वी सीमा बनाती है?",
+      "gold_answer": "पूर्वी घाट",
+      "model_answer": "पूर्वी घाट",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 139,
+      "question": "कौन सी नदी सुंदर होगेनक्कल जलप्रपात का निर्माण करती है?",
+      "gold_answer": "कावेरी नदी",
+      "model_answer": "कावेरी नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 140,
+      "question": "होगेनक्कल जलप्रपात किस जिले में स्थित हैं?",
+      "gold_answer": "धर्मपुरी जिला",
+      "model_answer": "धर्मपुरी जिले में",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 141,
+      "question": "कौन सा तटीय शहर तमिलनाडु के बिल्कुल दक्षिणी सिरे पर स्थित है?",
+      "gold_answer": "कन्याकुमारी",
+      "model_answer": "कन्याकुमारी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 142,
+      "question": "कन्याकुमारी में कौन से तीन प्रमुख जल निकाय मिलते हैं?",
+      "gold_answer": "अरब सागर, बंगाल की खाड़ी और हिंद महासागर",
+      "model_answer": "बंगाल की खाड़ी, अरब सागर, हिंद",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 143,
+      "question": "कौन सा केंद्र शासित प्रदेश पूर्वी तट पर तमिलनाडु के साथ सीमा साझा करता है?",
+      "gold_answer": "पुदुचेरी",
+      "model_answer": "पुदुचेरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 144,
+      "question": "पुडुचेरी केंद्र शासित प्रदेश का कौन सा परिक्षेत्र भौगोलिक दृष्टि से नागापट्टिनम के पास तमिलनाडु के अंदर स्थित है?",
+      "gold_answer": "कराईकल",
+      "model_answer": "कराईकल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 145,
+      "question": "कौन सा चूना पत्थर शोल द्वीप श्रृंखला मन्नार की खाड़ी के दक्षिण में स्थित है?",
+      "gold_answer": "एडम ब्रिज (राम सेतु)",
+      "model_answer": "कोई जानकारी उपलब्ध नहीं है",
+      "is_abstaining": true,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": true }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 146,
+      "question": "तमिलनाडु में एडम ब्रिज के पास कौन सा रेतीला द्वीप तीर्थ नगर स्थित है?",
+      "gold_answer": "रामेश्वरम",
+      "model_answer": "रामेश्वरम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 147,
+      "question": "रामेश्वरम किस जिले में आता है?",
+      "gold_answer": "रामनाथपुरम जिला",
+      "model_answer": "रामनाथपुरम जिले में",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 148,
+      "question": "कौन सा प्रतिष्ठित पुल भारत की मुख्य भूमि को रामेश्वरम द्वीप से जोड़ता है?",
+      "gold_answer": "पंबन ब्रिज",
+      "model_answer": "पांबन पुल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 149,
+      "question": "शुष्क सदाबहार वनों की रक्षा करने वाला कौन सा राष्ट्रीय उद्यान पूरी तरह से चेन्नई शहर की सीमा के भीतर स्थित है?",
+      "gold_answer": "गिंडी राष्ट्रीय उद्यान",
+      "model_answer": "गुइंडी राष्ट्रीय उद्यान",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 150,
+      "question": "कौन सा संरक्षित क्षेत्र और पक्षी अभयारण्य चेन्नई के दक्षिण में नागपट्टिनम जिले के तट पर स्थित है?",
+      "gold_answer": "प्वाइंट कैलिमेरे वन्यजीव अभयारण्य",
+      "model_answer": "प्वाइंट कैलिमेरे वन्यजीव",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 151,
+      "question": "कौन सा ऐतिहासिक शहर \"तमिलनाडु का धान का कटोरा\" के रूप में प्रसिद्ध है?",
+      "gold_answer": "तंजावुर",
+      "model_answer": "तंजावुर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 152,
+      "question": "कावेरी नदी की कौन सी प्रमुख उत्तरी सहायक नदी समुद्र में गिरने से पहले डेल्टा क्षेत्र से होकर बहती है?",
+      "gold_answer": "कोलिदम नदी",
+      "model_answer": "कोई जानकारी उपलब्ध नहीं है",
+      "is_abstaining": true,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": true }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 153,
+      "question": "कृष्णा नदी परियोजना के हिस्से के रूप में कौन सा जलाशय चेन्नई को पानी की आपूर्ति करता है?",
+      "gold_answer": "पूंडी जलाशय",
+      "model_answer": "कंडलेरू जलाशय",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 154,
+      "question": "तमिलनाडु का आधिकारिक राज्य वृक्ष क्या है?",
+      "gold_answer": "पलमायरा हथेली",
+      "model_answer": "ताड़ का पेड़",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 155,
+      "question": "तमिलनाडु का आधिकारिक राज्य पशु क्या है?",
+      "gold_answer": "नीलगिरि तहर",
+      "model_answer": "नीलगिरि तहर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 156,
+      "question": "तमिलनाडु का आधिकारिक राज्य पक्षी कौन सा है?",
+      "gold_answer": "पन्ना कबूतर",
+      "model_answer": "पन्ना कबूतर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 157,
+      "question": "पश्चिमी तमिलनाडु का कौन सा जिला, जो अपनी हल्दी के लिए जाना जाता है, आधुनिक विभाजन से पहले क्षेत्रफल की दृष्टि से ऐतिहासिक रूप से सबसे बड़ा था?",
+      "gold_answer": "इरोड जिला",
+      "model_answer": "ईरोड",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 158,
+      "question": "कौन सी प्रमुख नदी इरोड शहर से होकर बहती है?",
+      "gold_answer": "भवानी नदी",
+      "model_answer": "कावेरी नदी",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 159,
+      "question": "भवानी नदी पर कौन सा बड़ा मिट्टी का बांध बना हुआ है?",
+      "gold_answer": "भवानीसागर बांध",
+      "model_answer": "भवानी सागर बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 160,
+      "question": "इरोड के निकट पवित्र तीन नदियों के संगम का क्या नाम है?",
+      "gold_answer": "कुदुथुराई",
+      "model_answer": "भवानी कूदुथुराई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 161,
+      "question": "कौन सा प्रमुख मंदिर शहर कावेरी और कोल्लिडम नदियों से घिरे एक नदी द्वीप पर स्थित है?",
+      "gold_answer": "श्रीरंगम",
+      "model_answer": "श्रीरंगम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 162,
+      "question": "उत्तरी तमिलनाडु में कौन सा किला शहर पलार नदी के तट पर स्थित है?",
+      "gold_answer": "वेल्लोर",
+      "model_answer": "वेल्लोर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 163,
+      "question": "कौन सा जिला मुख्यालय ऐतिहासिक जिंजी किले के सबसे निकट स्थित है?",
+      "gold_answer": "विलुप्पुरम",
+      "model_answer": "विल्लुपुरम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 164,
+      "question": "विलुप्पुरम जिले के निकट कौन सा ऐतिहासिक पहाड़ी किला क्षेत्र स्थित है?",
+      "gold_answer": "जिंजी किला",
+      "model_answer": "जिंजी किला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 165,
+      "question": "कोयंबटूर के पास तमिलनाडु और केरल की सीमा पर कौन सी जंगली पहाड़ियाँ स्थित हैं?",
+      "gold_answer": "अनाईमलाई पहाड़ियाँ",
+      "model_answer": "अनामलाई पहाड़ियाँ",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 166,
+      "question": "अनाईमलाई पहाड़ियों (केरल की सीमा के ठीक पार स्थित) में कौन सी चोटी सबसे ऊँची है?",
+      "gold_answer": "Anamudi",
+      "model_answer": "अनामुडी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 167,
+      "question": "पश्चिम में तमिलनाडु की सीमा किस राज्य से लगती है?",
+      "gold_answer": "केरल",
+      "model_answer": "केरल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 168,
+      "question": "तमिलनाडु की सीमा उत्तर पश्चिम में किस राज्य से लगती है?",
+      "gold_answer": "कर्नाटक",
+      "model_answer": "कर्नाटक",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 169,
+      "question": "उत्तर में तमिलनाडु की सीमा किस राज्य से लगती है?",
+      "gold_answer": "आंध्र प्रदेश",
+      "model_answer": "आंध्र प्रदेश",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 170,
+      "question": "कौन सा प्रमुख पठारी क्षेत्र सेलम और धर्मपुरी क्षेत्रों तक फैला हुआ है?",
+      "gold_answer": "मैसूर पठार (कोंगु पठार)",
+      "model_answer": "दक्कन का पठार",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 171,
+      "question": "कौन सा प्रमुख शहर यरकौड हिल स्टेशन के प्रवेश द्वार के रूप में कार्य करता है?",
+      "gold_answer": "सलेम",
+      "model_answer": "सेलम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 172,
+      "question": "यरकौड शहर किन पहाड़ियों में स्थित है?",
+      "gold_answer": "शेवरॉय हिल्स (सर्वारायण हिल्स)",
+      "model_answer": "शेवरॉय पहाड़ियाँ",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 173,
+      "question": "यरकौड शहर के भीतर कौन सी प्रमुख झील स्थित है?",
+      "gold_answer": "यरकौड झील",
+      "model_answer": "यरकौड झील",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 174,
+      "question": "कौन सा जिला झरने वाले कोर्टलम झरने के लिए प्रसिद्ध है?",
+      "gold_answer": "तेनकासी जिला",
+      "model_answer": "तेनकासी जिला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 175,
+      "question": "कौन सी पहाड़ियाँ, एक बड़े बायोस्फीयर रिज़र्व का हिस्सा हैं, जिनमें कोर्टालम झरना शामिल है?",
+      "gold_answer": "अगस्त्यमाला",
+      "model_answer": "पश्चिमी घाट",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 176,
+      "question": "पश्चिमी घाट में कौन सा बायोस्फीयर रिजर्व अगस्त्यमाला चोटियों को शामिल करता है?",
+      "gold_answer": "अगस्त्यमाला बायोस्फीयर रिजर्व",
+      "model_answer": "अगस्त्यमाला बायोस्फीयर रिजर्व",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 177,
+      "question": "चेन्नई के उत्तर में कौन सा बंदरगाह शहर अत्यधिक औद्योगिकीकृत है और अपनी ऊर्जा और ऑटोमोबाइल लॉजिस्टिक्स के लिए जाना जाता है?",
+      "gold_answer": "एन्नोर",
+      "model_answer": "विशाखापत्तनम",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 178,
+      "question": "कौन सा प्रमुख ऐतिहासिक बंदरगाह सीधे चेन्नई से संचालित होता है?",
+      "gold_answer": "चेन्नई बंदरगाह",
+      "model_answer": "चेन्नई बंदरगाह",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 179,
+      "question": "कौन सा प्रमुख उपग्रह बंदरगाह चेन्नई बंदरगाह के ठीक उत्तर में स्थित है?",
+      "gold_answer": "कामराजार बंदरगाह",
+      "model_answer": "एन्नोर बंदरगाह",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 180,
+      "question": "कौन सी नदी कुड्डालोर जिले से होकर सीधे समुद्र में गिरती है?",
+      "gold_answer": "गदिलम नदी",
+      "model_answer": "गदिलम नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 181,
+      "question": "कुड्डालोर जिले में कौन सा विशाल संसाधन उत्खनन क्षेत्र प्रसिद्ध है?",
+      "gold_answer": "नेवेली लिग्नाइट क्षेत्र",
+      "model_answer": "नेवेली लिग्नाइट क्षेत्र",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 182,
+      "question": "कौन सा प्रमुख बांध तिरुवन्नामलाई जिले में सिंचाई की आपूर्ति करता है?",
+      "gold_answer": "सथानुर बांध",
+      "model_answer": "सातनूर बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 183,
+      "question": "सथानुर बांध बनाने के लिए किस नदी पर बांध बनाया गया है?",
+      "gold_answer": "थेनपेन्नई नदी (पोन्नैयार)",
+      "model_answer": "थेनपेन्नई नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 184,
+      "question": "कौन सा पवित्र तीर्थ नगर अरुणाचल पर्वत की तलहटी में स्थित है?",
+      "gold_answer": "तिरुवन्नामलाई",
+      "model_answer": "तिरुवन्नामलाई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 185,
+      "question": "होसुर प्रमुख औद्योगिक शहर किस जिले में स्थित है?",
+      "gold_answer": "कृष्णागिरि जिला",
+      "model_answer": "कृष्णागिरी जिला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 186,
+      "question": "कृष्णागिरी और धर्मपुरी के पास की पहाड़ियों में कौन सा वन्यजीव अभयारण्य स्थित है?",
+      "gold_answer": "कावेरी उत्तरी वन्यजीव अभयारण्य",
+      "model_answer": "कावेरी उत्तर वन्यजीव अभयारण्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 187,
+      "question": "कौन सी नदी करूर के पास बहती है और अंततः कावेरी में मिल जाती है?",
+      "gold_answer": "अमरावती नदी",
+      "model_answer": "अमरावती नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 188,
+      "question": "तिरुपुर जिले में किस बांध का नाम कावेरी नदी की सबसे लंबी सहायक नदी के नाम पर रखा गया है?",
+      "gold_answer": "अमरावती बांध",
+      "model_answer": "भवानी सागर बांध",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 189,
+      "question": "कौन सा तटीय शहर वैगई नदी के पाल्क खाड़ी की ओर बहाव के निकट स्थित है?",
+      "gold_answer": "रामनाथपुरम",
+      "model_answer": "देवपट्टिनम",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 190,
+      "question": "कौन सा जिला कलक्कड़ मुंडनथुराई टाइगर रिजर्व की मेजबानी के लिए जाना जाता है?",
+      "gold_answer": "तिरुनेलवेली जिला",
+      "model_answer": "तिरुनेलवेली",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 191,
+      "question": "परम्बिकुलम अलियार परियोजना के हिस्से के रूप में निर्मित कौन सा जलाशय अनाईमलाई तलहटी में स्थित है?",
+      "gold_answer": "अलियार बांध",
+      "model_answer": "अलियार जलाशय",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 192,
+      "question": "पोलाची के निकट कौन सा प्रमुख पर्वतीय दर्रा तमिलनाडु और केरल को जोड़ता है?",
+      "gold_answer": "पलक्कड़ गैप (पालघाट गैप)",
+      "model_answer": "पालक्काड दर्रा",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 193,
+      "question": "कन्याकुमारी के पास कौन सा शहर भारत के सबसे बड़े तटवर्ती पवन फार्मों में से एक के लिए प्रसिद्ध है?",
+      "gold_answer": "मुप्पंडल",
+      "model_answer": "मुप्पंडल",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 194,
+      "question": "कोयंबटूर और इरोड सहित पश्चिमी तमिलनाडु के पारंपरिक भौगोलिक क्षेत्र का ऐतिहासिक नाम क्या है?",
+      "gold_answer": "कोंगु नाडु",
+      "model_answer": "कोंगु नाडु",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 195,
+      "question": "कौन सी नदी तिरुवल्लूर जिले से होकर बहती है और कई महत्वपूर्ण जलाशयों की आपूर्ति करती है?",
+      "gold_answer": "कोसस्थलैयार नदी",
+      "model_answer": "अरणी नदी",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 196,
+      "question": "कोसस्थलैयार नदी पर कौन सा प्रमुख जलाशय चेन्नई को पानी की आपूर्ति करता है?",
+      "gold_answer": "रेड हिल्स झील (पुझल झील)",
+      "model_answer": "पूंडी जलाशय",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 197,
+      "question": "रेड हिल्स झील किस जिले में स्थित है?",
+      "gold_answer": "तिरुवल्लुर जिला",
+      "model_answer": "चेन्नई जिले में",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 198,
+      "question": "चेन्नई के दक्षिण में कौन सा तटीय शहर यूनेस्को-सूचीबद्ध ऐतिहासिक स्मारकों के लिए प्रसिद्ध है?",
+      "gold_answer": "मामल्लापुरम (महाबलीपुरम)",
+      "model_answer": "महाबलीपुरम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 199,
+      "question": "मामल्लापुरम किस जिले में आता है?",
+      "gold_answer": "चेंगलपट्टू जिला",
+      "model_answer": "चेंगलपट्टू जिला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 200,
+      "question": "चेन्नई में कौन सा प्रतिष्ठित शहरी समुद्र तट बंगाल की खाड़ी के साथ 13 किमी तक फैला है?",
+      "gold_answer": "मरीना बीच",
+      "model_answer": "मरीना बीच",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 201,
+      "question": "कौन सी अत्यधिक प्रदूषित नदी सीधे मध्य चेन्नई से होकर बहती है?",
+      "gold_answer": "कूउम नदी",
+      "model_answer": "कूवम नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 202,
+      "question": "कौन सी नदी चेन्नई के दक्षिणी भाग से होकर बहती है?",
+      "gold_answer": "अड्यार नदी",
+      "model_answer": "अड्यार नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 203,
+      "question": "अडयार मुहाना आर्द्रभूमि को पुनर्स्थापित और संरक्षित करने के लिए कौन सा इको-पार्क बनाया गया था?",
+      "gold_answer": "अड्यार पूंगा (थोलकाप्पिया पूंगा)",
+      "model_answer": "अड्यार इको-पार्क",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 204,
+      "question": "चेन्नई में कौन सा नदी द्वीप क्षेत्र अडयार नदी के मुहाने के पास स्थित है?",
+      "gold_answer": "वक्रोक्ति द्वीप",
+      "model_answer": "कोई जानकारी उपलब्ध नहीं है",
+      "is_abstaining": true,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": true }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 205,
+      "question": "कौन सा जिला पहाड़ी शहर येलागिरी के लिए प्रसिद्ध है?",
+      "gold_answer": "तिरुपथुर जिला",
+      "model_answer": "वेल्लोर जिला",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 206,
+      "question": "कौन सी मानव निर्मित झील येलागिरी में नौकायन का मुख्य आकर्षण है?",
+      "gold_answer": "पुंगनूर झील",
+      "model_answer": "पुंगनूर झील",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 207,
+      "question": "कौन सी चक्रवात-प्रवण तटरेखा नागपट्टिनम जिले और पूर्वी तमिलनाडु तक फैली हुई है?",
+      "gold_answer": "कोरोमंडल तट",
+      "model_answer": "कोरोमंडल तट",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 208,
+      "question": "कौन सा ऐतिहासिक रूप से महत्वपूर्ण बंदरगाह शहर कोरोमंडल तट पर स्थित है?",
+      "gold_answer": "नागपट्टिनम",
+      "model_answer": "नागपट्टिनम",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 209,
+      "question": "कौन सी सहायक नदी कावेरी से निकलकर कराईकल के पास बंगाल की खाड़ी में गिरती है?",
+      "gold_answer": "अरसलार नदी",
+      "model_answer": "अरसलार नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 210,
+      "question": "कौन सा प्रतिष्ठित पहाड़ी स्थल तिरुचिरापल्ली शहर के केंद्र में नाटकीय रूप से उभरता है?",
+      "gold_answer": "रॉकफोर्ट",
+      "model_answer": "रॉकफोर्ट",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 211,
+      "question": "कौन सा प्रमुख जलाशय कृष्णागिरी शहर के पास स्थित है?",
+      "gold_answer": "कृष्णागिरी बांध",
+      "model_answer": "कृष्णागिरी बांध",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 212,
+      "question": "कौन सी नदी कृष्णागिरी जलाशय को जल प्रदान करती है?",
+      "gold_answer": "थेनपेन्नई (पोन्नैयार)",
+      "model_answer": "पोन्नैयार नदी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 213,
+      "question": "2020 में कावेरी डेल्टा क्षेत्र के अंतर्गत नागपट्टिनम जिले से कौन सा जिला बनाया गया था?",
+      "gold_answer": "मयिलादुथुराई जिला",
+      "model_answer": "मयिलादुथुराई",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 214,
+      "question": "कौन सा प्रसिद्ध प्रवासी पक्षी अभयारण्य चेंगलपट्टू जिले (ऐतिहासिक रूप से कांचीपुरम) में स्थित है?",
+      "gold_answer": "वेदांथंगल पक्षी अभयारण्य",
+      "model_answer": "वेदांथंगल पक्षी अभयारण्य",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 215,
+      "question": "मीनाक्षी मंदिर के लिए प्रसिद्ध कौन सा प्रमुख प्राचीन शहर वैगई नदी के तट पर स्थित है?",
+      "gold_answer": "मदुरै",
+      "model_answer": "मदुरै",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 216,
+      "question": "वरुणाडु और पूर्वी ढलान क्षेत्र में कौन सा वन्यजीव अभयारण्य स्थित है?",
+      "gold_answer": "श्रीविल्लिपुथुर वन्यजीव अभयारण्य",
+      "model_answer": "श्रीविल्लिपुथुर वन्यजीव",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 217,
+      "question": "श्रीविल्लिपुथुर अभयारण्य में कौन सा लुप्तप्राय जानवर अत्यधिक संरक्षित है?",
+      "gold_answer": "ग्रिज़ल्ड विशाल गिलहरी",
+      "model_answer": "ग्रे ग्रिजल्ड गिलहरी",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 218,
+      "question": "कौन सी प्रमुख अंतरराज्यीय नदी परियोजना इस क्षेत्र में पश्चिमी घाट में जलाशयों की एक श्रृंखला को जोड़ती है?",
+      "gold_answer": "परम्बिकुलम अलियार परियोजना",
+      "model_answer": "कावेरी नदी परियोजना",
+      "is_abstaining": false,
+      "is_hallucinated": true,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "INCORRECT"
+    },
+    {
+      "id": 219,
+      "question": "नमक्कल शहर के केंद्र में कौन सा पृथक अखंड चट्टानी किला तेजी से उभरा हुआ है?",
+      "gold_answer": "नमक्कल किला (नामक्कल रॉक)",
+      "model_answer": "नमक्कल किला",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 220,
+      "question": "तमिलनाडु का कौन सा जिला अपने समृद्ध क्रेटेशियस जीवाश्म बिस्तरों के लिए जीवाश्म विज्ञानियों के बीच प्रसिद्ध है?",
+      "gold_answer": "अरियालुर जिला",
+      "model_answer": "अरियालुर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 221,
+      "question": "चेन्नई के ठीक उत्तर में कौन सा तटीय जिला आंध्र प्रदेश के साथ सीमा साझा करता है?",
+      "gold_answer": "तिरुवल्लुर जिला",
+      "model_answer": "तिरुवल्लूर",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 222,
+      "question": "चेन्नई के दक्षिण में कौन सा उपग्रह पड़ोस एक विशाल आईटी केंद्र है?",
+      "gold_answer": "Sholinganallur",
+      "model_answer": "शोभानल्लूर (Sholinganallur)",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    },
+    {
+      "id": 223,
+      "question": "कौन सा प्रमुख सड़क गलियारा (राज्य राजमार्ग 49ए) प्रसिद्ध रूप से चेन्नई के अधिकांश आईटी पार्कों की मेजबानी करता है?",
+      "gold_answer": "पुराना महाबलीपुरम रोड (राजीव गांधी सलाई)",
+      "model_answer": "ओल्ड महाबलीपुरम रोड",
+      "is_abstaining": false,
+      "is_hallucinated": false,
+      "abstain_judge_raw": "{ \"is_abstaining\": false }",
+      "hallu_judge_raw": "CORRECT"
+    }
+  ]
+}
