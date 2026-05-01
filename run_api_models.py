@@ -325,16 +325,15 @@ def call_api(model_tag, prompt):
         response = model.generate_content(prompt)
         return response.text.strip()
 
-    # --- DeepSeek-V3 ---
-    if model_tag == "deepseek-v3":
+    # --- DeepSeek-V4 Flash ---
+    if model_tag == "deepseek-v4-flash":
         res = client_deepseek.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.0
         )
         return res.choices[0].message.content.strip()
 
-    # --- Sarvam-105B ---
     # --- Sarvam-105B ---
     if model_tag == "sarvam-105b":
         res = client_sarvam.chat.completions.create(
