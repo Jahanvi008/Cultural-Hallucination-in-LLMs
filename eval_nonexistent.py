@@ -3,7 +3,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Path to your JSONL file
-FILE_PATH = "model_outputs_gujarati/nonexistent/hi/claude-sonnet-4-6.jsonl"
+FILE_PATH = "model_outputs_tamil/nonexistent_ta/hi/sarvam-105b.jsonl"
 
 # Report file where results will be saved/appended
 REPORT_PATH = "nonexis_evaluation_summary.txt"

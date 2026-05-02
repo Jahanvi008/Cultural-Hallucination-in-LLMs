@@ -60,3 +60,129 @@ Total questions: 200
 Non-refusal answers: 78
 Non-refusal percentage: 39.00%
 
+============================================================
+File path: model_outputs_gujarati/nonexistent/en/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:22:27
+Total questions: 200
+Non-refusal answers: 116
+Non-refusal percentage: 58.00%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/gu/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:24:55
+Total questions: 200
+Non-refusal answers: 105
+Non-refusal percentage: 52.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/hi/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:25:16
+Total questions: 200
+Non-refusal answers: 117
+Non-refusal percentage: 58.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/en/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:25:58
+Total questions: 200
+Non-refusal answers: 109
+Non-refusal percentage: 54.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/gu/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:26:31
+Total questions: 200
+Non-refusal answers: 111
+Non-refusal percentage: 55.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/hi/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:26:45
+Total questions: 200
+Non-refusal answers: 103
+Non-refusal percentage: 51.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:27:21
+Total questions: 200
+Non-refusal answers: 64
+Non-refusal percentage: 32.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:29:13
+Total questions: 200
+Non-refusal answers: 50
+Non-refusal percentage: 25.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/deepseek-v4-flash.jsonl
+Run time: 2026-05-01 19:29:31
+Total questions: 200
+Non-refusal answers: 51
+Non-refusal percentage: 25.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:32:26
+Total questions: 200
+Non-refusal answers: 51
+Non-refusal percentage: 25.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:32:58
+Total questions: 200
+Non-refusal answers: 56
+Non-refusal percentage: 28.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/gemini-2.5-flash.jsonl
+Run time: 2026-05-01 19:33:09
+Total questions: 200
+Non-refusal answers: 47
+Non-refusal percentage: 23.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/en/sarvam-105b.jsonl
+Run time: 2026-05-01 20:01:44
+Total questions: 200
+Non-refusal answers: 162
+Non-refusal percentage: 81.00%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/gu/sarvam-105b.jsonl
+Run time: 2026-05-01 20:31:38
+Total questions: 200
+Non-refusal answers: 152
+Non-refusal percentage: 76.00%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/hi/sarvam-105b.jsonl
+Run time: 2026-05-01 20:50:51
+Total questions: 200
+Non-refusal answers: 160
+Non-refusal percentage: 80.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/sarvam-105b.jsonl
+Run time: 2026-05-01 20:52:01
+Total questions: 200
+Non-refusal answers: 124
+Non-refusal percentage: 62.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/sarvam-105b.jsonl
+Run time: 2026-05-01 20:55:41
+Total questions: 200
+Non-refusal answers: 107
+Non-refusal percentage: 53.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/sarvam-105b.jsonl
+Run time: 2026-05-01 20:56:45
+Total questions: 200
+Non-refusal answers: 123
+Non-refusal percentage: 61.50%
+

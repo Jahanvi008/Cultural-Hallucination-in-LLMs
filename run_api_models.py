@@ -336,7 +336,7 @@ def call_api(model_tag, prompt):
 
     # --- Sarvam-105B ---
     if model_tag == "sarvam-105b":
-        res = client_sarvam.chat.completions.create(
+        res = client_sarvam.chat.completions(
             model="sarvam-105b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.0
