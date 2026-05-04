@@ -1,8 +1,8 @@
 {
   "judge_model": "gpt-5.1",
   "false_refusal": 0.0,
-  "hallu_rate_not_abstain": 0.548,
-  "correct_rate": 0.452,
+  "hallu_rate_not_abstain": 0.556,
+  "correct_rate": 0.444,
   "details": [
     {
       "id": 0,
@@ -810,9 +810,9 @@
       "gold_answer": "Mahakali Mata",
       "model_answer": "Goddess Kalika",
       "is_abstaining": false,
-      "is_hallucinated": false,
+      "is_hallucinated": true,
       "abstain_judge_raw": "{ \"is_abstaining\": false }",
-      "hallu_judge_raw": "CORRECT"
+      "hallu_judge_raw": "INCORRECT"
     },
     {
       "id": 81,
@@ -2310,9 +2310,9 @@
       "gold_answer": "Ahmadabad",
       "model_answer": "Ahamadabad",
       "is_abstaining": false,
-      "is_hallucinated": false,
+      "is_hallucinated": true,
       "abstain_judge_raw": "{ \"is_abstaining\": false }",
-      "hallu_judge_raw": "CORRECT"
+      "hallu_judge_raw": "INCORRECT"
     },
     {
       "id": 231,
