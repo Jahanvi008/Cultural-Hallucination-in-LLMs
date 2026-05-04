@@ -9,12 +9,14 @@ FILE_PATH = "model_outputs_tamil/nonexistent_ta/hi/sarvam-105b.jsonl"
 REPORT_PATH = "nonexis_evaluation_summary.txt"
 
 REFUSALS = {
-    "માહિતી ઉપલબ્ધ નથી",
     "No Information Available",
-    "தகவல் இல்லை",
-    "No Information Available/ માહિતી ઉપલબ્ધ નથી",
-    "जानकारी उपलब्ध नहीं है",
+    "માહિતી ઉપલબ્ધ નથી",
     "कोई जानकारी उपलब्ध नहीं है",
+    "தகவல் இல்லை",
+    "जानकारी उपलब्ध नहीं है",
+    "No Information Available/ માહિતી ઉપલબ્ધ નથી",
+    "No Information Available/ कोई जानकारी उपलब्ध नहीं है",
+    "No Information Available/ தகவல் இல்லை",
     "No Information Available/ जानकारी उपलब्ध नहीं है",
     ""
 }
