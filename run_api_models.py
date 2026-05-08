@@ -181,10 +181,10 @@ def load_dataset(ds_dir, dtype, lang):
 
     # ---------------- GUJARATI ----------------
     elif lang == "gu":
-        # Expected Hindi column names after your translation step
-        q_candidates = ["question_hindi", "questions", "Question", "question"]
-        a_candidates = ["answer_hindi", "gold_answer", "answer"]
-        d_candidates = ["domain_hindi", "domain", "category"]
+        # Expected Gujarati column names
+        q_candidates = ["question_gujarati", "questions", "Question", "question"]
+        a_candidates = ["answer_gujarati", "gold_answer", "answer"]
+        d_candidates = ["domain_gujarati", "domain", "category"]
 
         q_col = next((c for c in q_candidates if c in df.columns), None)
         a_col = next((c for c in a_candidates if c in df.columns), None)
