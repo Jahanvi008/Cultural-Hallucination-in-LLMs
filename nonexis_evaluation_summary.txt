@@ -60,3 +60,87 @@ Total questions: 200
 Non-refusal answers: 78
 Non-refusal percentage: 39.00%
 
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/claude-sonnet-4-6.jsonl
+Run time: 2026-05-01 15:24:14
+Total questions: 200
+Non-refusal answers: 34
+Non-refusal percentage: 17.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/command-a.jsonl
+Run time: 2026-05-01 15:56:30
+Total questions: 200
+Non-refusal answers: 43
+Non-refusal percentage: 21.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/command-a.jsonl
+Run time: 2026-05-01 15:56:48
+Total questions: 200
+Non-refusal answers: 50
+Non-refusal percentage: 25.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/command-a.jsonl
+Run time: 2026-05-01 15:57:03
+Total questions: 200
+Non-refusal answers: 38
+Non-refusal percentage: 19.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/claude-sonnet-4-6.jsonl
+Run time: 2026-05-01 15:57:32
+Total questions: 200
+Non-refusal answers: 68
+Non-refusal percentage: 34.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/claude-sonnet-4-6.jsonl
+Run time: 2026-05-01 15:57:49
+Total questions: 200
+Non-refusal answers: 68
+Non-refusal percentage: 34.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/claude-sonnet-4-6.jsonl
+Run time: 2026-05-02 21:26:57
+Total questions: 200
+Non-refusal answers: 68
+Non-refusal percentage: 34.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/gpt-5.jsonl
+Run time: 2026-05-04 08:36:23
+Total questions: 200
+Non-refusal answers: 111
+Non-refusal percentage: 55.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/gpt-5.jsonl
+Run time: 2026-05-08 15:13:30
+Total questions: 200
+Non-refusal answers: 99
+Non-refusal percentage: 49.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/gpt-5.jsonl
+Run time: 2026-05-08 18:28:06
+Total questions: 200
+Non-refusal answers: 99
+Non-refusal percentage: 49.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/gpt-5.jsonl
+Run time: 2026-05-08 18:28:30
+Total questions: 200
+Non-refusal answers: 99
+Non-refusal percentage: 49.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/gpt-5.jsonl
+Run time: 2026-05-08 18:28:38
+Total questions: 200
+Non-refusal answers: 99
+Non-refusal percentage: 49.50%
+
