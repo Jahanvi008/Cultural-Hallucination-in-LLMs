@@ -8,11 +8,14 @@ from tqdm import tqdm
 
 from openai import OpenAI
 import anthropic
+import google.generativeai as genai
+from sarvamai import SarvamAI
 import os
 # import cohere
 
 client_openai = OpenAI()
 client_claude = anthropic.Anthropic()
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 client_qwen = OpenAI(
     api_key=os.environ.get("QWEN_API_KEY"),
     base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
@@ -21,6 +24,12 @@ client_openrouter = OpenAI(
     api_key=os.environ.get("OPENROUTER_API_KEY"),
     base_url="https://openrouter.ai/api/v1"
 )
+client_deepseek = OpenAI(
+    api_key=os.environ.get("DEEPSEEK_API_KEY"),
+    base_url="https://api.deepseek.com"
+)
+client_sarvam = SarvamAI(api_subscription_key=os.environ.get("SARVAM_API_KEY"))
+
 # client_cohere = cohere.ClientV2(api_key=os.getenv("COHERE_API_KEY"))
 
 # --- Dataset file map ---
@@ -172,10 +181,10 @@ def load_dataset(ds_dir, dtype, lang):
 
     # ---------------- GUJARATI ----------------
     elif lang == "gu":
-        # Expected Hindi column names after your translation step
-        q_candidates = ["question_hindi", "questions", "Question", "question"]
-        a_candidates = ["answer_hindi", "gold_answer", "answer"]
-        d_candidates = ["domain_hindi", "domain", "category"]
+        # Expected Gujarati column names
+        q_candidates = ["question_gujarati", "questions", "Question", "question"]
+        a_candidates = ["answer_gujarati", "gold_answer", "answer"]
+        d_candidates = ["domain_gujarati", "domain", "category"]
 
         q_col = next((c for c in q_candidates if c in df.columns), None)
         a_col = next((c for c in a_candidates if c in df.columns), None)
@@ -309,6 +318,31 @@ def call_api(model_tag, prompt):
             temperature=0.0
         )
         return res.choices[0].message.content.strip()
+    
+    # --- Gemini 2.5 Flash ---
+    if model_tag == "gemini-2.5-flash":
+        model = genai.GenerativeModel("gemini-2.5-flash")
+        response = model.generate_content(prompt)
+        return response.text.strip()
+
+    # --- DeepSeek-V4 Flash ---
+    if model_tag == "deepseek-v4-flash":
+        res = client_deepseek.chat.completions.create(
+            model="deepseek-v4-flash",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
+        )
+        return res.choices[0].message.content.strip()
+
+    # --- Sarvam-105B ---
+    if model_tag == "sarvam-105b":
+        res = client_sarvam.chat.completions(
+            model="sarvam-105b",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0
+        )
+        return res.choices[0].message.content.strip()
+    
     return "ERROR: Unknown model"
 
 def main():
