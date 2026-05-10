@@ -270,3 +270,86 @@ Total questions: 200
 Non-refusal answers: 123
 Non-refusal percentage: 61.50%
 
+============================================================
+File path: model_outputs_gujarati/nonexistent/en/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:36:52
+Total questions: 200
+Non-refusal answers: 193
+Non-refusal percentage: 96.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/hi/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:38:06
+Total questions: 200
+Non-refusal answers: 199
+Non-refusal percentage: 99.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/gu/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:38:14
+Total questions: 200
+Non-refusal answers: 197
+Non-refusal percentage: 98.50%
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:39:07
+Total questions: 200
+Non-refusal answers: 179
+Non-refusal percentage: 89.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:39:12
+Total questions: 200
+Non-refusal answers: 198
+Non-refusal percentage: 99.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/qwen-mt-plus.jsonl
+Run time: 2026-05-10 18:39:15
+Total questions: 200
+Non-refusal answers: 196
+Non-refusal percentage: 98.00%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/en/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:39:41
+Total questions: 200
+Non-refusal answers: 141
+Non-refusal percentage: 70.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/gu/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:39:47
+Total questions: 200
+Non-refusal answers: 177
+Non-refusal percentage: 88.50%
+
+============================================================
+File path: model_outputs_gujarati/nonexistent/hi/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:39:51
+Total questions: 200
+Non-refusal answers: 178
+Non-refusal percentage: 89.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/en/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:40:00
+Total questions: 200
+Non-refusal answers: 133
+Non-refusal percentage: 66.50%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/hi/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:40:05
+Total questions: 200
+Non-refusal answers: 162
+Non-refusal percentage: 81.00%
+
+============================================================
+File path: model_outputs_tamil/nonexistent_ta/ta/llama-4-maverick.jsonl
+Run time: 2026-05-10 18:40:07
+Total questions: 200
+Non-refusal answers: 165
+Non-refusal percentage: 82.50%
+
